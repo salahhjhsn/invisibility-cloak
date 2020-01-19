@@ -17,6 +17,8 @@ time.sleep(1)
 count = 0
 background = 0
 
+
+
 for x in range(60):
     ret, background = cap.read()
     if not ret:

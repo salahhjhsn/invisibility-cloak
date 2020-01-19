@@ -1,5 +1,5 @@
 cam = webcam(1);
-
+% cam = videoinput('macvideo',1);
 w = preview(cam);
 static_image = snapshot(cam);
 
