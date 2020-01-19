@@ -29,7 +29,7 @@ while(cap.isOpened()):
     if not return_val:
         break
     count = count + 1
-    img = np.flip(img, axis=1)
+    # img = np.flip(img, axis=1)
 
     # convert the image - BGR to HSV
     # as we focused on detection of red color
