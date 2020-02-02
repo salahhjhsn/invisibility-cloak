@@ -1,9 +1,13 @@
+% TO TERMINATE THE PROGRAM, THE ORIGINAL VIDEO FEED MUST BE CLOSED AND NOT
+% FIGURE 2
+
 cam = webcam(1);
 
 w = preview(cam);
 static_image = snapshot(cam);
  
 % define color here in hsv
+% CHANGING ONLY THE H VALUE IS ENOUGH
 h = 0.66;
 s = 0.3;
 v = 0.3;
